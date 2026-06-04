@@ -1,15 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Home Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MxDev AI - Productivity App</title>
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
-
 <body>
-  <h1 id="animatedText">Hello World</h1>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="logo">MxDev AI</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#feature">Features</a></li>
+        <li><a href="#cta">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h1>Boost Your Productivity with AI</h1>
+        <p>
+          Organize tasks, manage projects, and work smarter with
+          MxDev AI — the all-in-one productivity assistant for modern teams.
+        </p>
+
+        <a href="#cta" class="btn">Start Free Trial</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+          alt="Productivity dashboard"
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="feature">
+      <h2>Awesome Features</h2>
+
+      <div class="features-grid">
+
+        <article class="feature-card">
+          <h3>Smart Task Manager</h3>
+          <p>
+            Automatically prioritize tasks and keep your workflow organized.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>AI Insights</h3>
+          <p>
+            Get intelligent recommendations to improve team performance.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Cloud Sync</h3>
+          <p>
+            Access your projects anywhere with secure cloud synchronization.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+      <h2>Ready to Work Smarter?</h2>
+      <p>
+        Join thousands of users improving productivity with MxDev AI.
+      </p>
+
+      <button class="btn">Get Started Now</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 MxDev AI. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
